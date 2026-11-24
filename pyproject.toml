@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "backup-reliability-estimator"
+version = "0.1.0"
+description = "A pure\u2011Python CLI that reads a JSON backup policy and outputs survival probabilities, combined risk, and expected recovery time."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+
+[project.scripts]
+"backup-reliability-estimator" = "backup_reliability_estimator:main"
+
+[project.urls]
+Repository = "https://github.com/ScobieWorks/backup-reliability-estimator"
+
+[tool.setuptools]
+py-modules = ["backup_reliability_estimator"]

@@ -1,0 +1,11 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.tmp
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+.orion.json
